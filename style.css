@@ -1,0 +1,162 @@
+/****Constant Styles*******/
+h1,.nav-name{
+	
+	font-family:'Playfair Display', serif;
+	letter-spacing:2px;
+	color:#023246;
+}
+
+h2,h3,h4,h5{
+	font-family:'Playfair Display', serif;
+	letter-spacing:0.5px;
+	color:#023246;
+	
+}
+
+p {
+	font-family:'Playfair Display', serif;
+	letter-spacing:0.5px;
+}
+
+
+/******Navigation*****/
+
+.topbrand{
+	
+	font-family:'Playfair Display', serif;
+	letter-spacing:2px;
+	
+}
+
+.topbrand img{
+	height:25px;
+}
+
+/*********Welcome header*******/
+
+.welcome{
+	background:url(imgs/humminglogoDESKTOP1.png);
+	!background-color:#fff7f8; /* light light pink*/
+	background-blend-mode:lighten;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:auto;
+	
+	min-height:50vh;
+}
+
+.subtitle{
+	color:#287094;
+}
+.service-icons-instagram{
+	color:#023246;
+}
+	
+
+/*****Services section*******/
+.services{
+	background-color:#f8f8f8;
+}
+
+.service-icons{
+	color:#287094;
+}
+/****Time Line*****/
+.page-header{
+	margin-top:15px;
+}
+
+/*****Get to work with us ***/
+.bg-image{
+	background-image:url("imgs/WP1.png");
+	padding:100px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	
+	z-index:-1;
+}
+.btn {
+    display: inline-block;
+    padding: 1em 1.5em;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+}
+.btn-primary {
+    /* background-image: linear-gradient(to left, #fb3e38, #bb0000); */
+	background-color:#023246;
+    color:white;
+
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/**Meet the Team**/
+
+.team{
+	!background-color:#f8f8f8;
+}
+.layout-vid{
+	width:480px;
+	height:340px;
+	margin:auto;
+	display:block;
+}
+
+@media (max-width: 767px){
+	/*images are too close to the text below in mobile view*/
+	.layout-img{
+		padding-bottom:20px;
+	}
+}
+
+.role{
+	margin-bottom:10px !important;
+}
+
+.team-person{
+	padding:5px;
+}
+
+
+/** Footer **/
+.findus{
+	color:white;
+	margin-bottom:2px;
+}
+.page-footer{
+	background-color:#023246;
+}
+.page-footer img{
+	height:50px;
+	margin:auto;
+	margin-top:auto;
+	display:flex;
+	display:block;
+}
+
+.footer-txt{
+	color:white;
+}
+
+.page-footer a {
+	color:#fff !important;
+}
+.page-footer a:hover {
+	color:#287094 !important;
+}
